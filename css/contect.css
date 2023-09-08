@@ -1,0 +1,146 @@
+:root {
+    --primary: #253993;
+    --secondary: #ffdd00;
+    --accent-color-light: #ffffff;
+    --accent-color-dark: #000000;
+    --p-color: #808285;
+    --padding-inline-section: 20px
+}
+
+/* contect1 */
+.contect1 {
+    background-image: url(../images/contect/contect1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.contect1 .overly {
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(120deg, rgba(255, 255, 255, 1) 55%, rgba(255, 255, 255, 0.4431022408963585) 55%);
+}
+
+.contect1 .content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    gap: 10px;
+}
+
+.contect1 span {
+    width: 60px;
+    height: 3px;
+    background-color: var(--secondary)
+}
+
+.contect1 .secondary-button {
+    width: 250px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+/* contect2 */
+.contect2 .container{
+    display: flex;
+}
+
+.contect2 .left{
+    width: 40%;
+    padding: 0 20px;
+    z-index:5;
+}
+
+.contect2 .right{
+    width: 60%;
+    padding: 20px 20px;
+}
+
+.contect2 .formbox{
+    padding: 50px;
+    background-color: #f9f9fb;
+    margin-top: 30px;
+}
+
+.contect2 form{
+    margin: 30px 0;
+}
+
+
+.contect2 form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: var(--accent-color-light);
+border: 1px solid var(--p-color);
+}
+
+.contect2 form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    height:100px;
+    background-color: var(--accent-color-light);
+    border: 1px solid var(--p-color);
+}
+
+.contect2 form button{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contect2 .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contect2 .top{
+    display: flex;
+    gap: 50px;
+}
+
+.contect2 .top .box{
+    width: 48%;
+}
+
+.contect2 .top .box h3 i{
+    color: var(--primary);
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.contect2 .top .box h3{
+    color:var(--accent-color-dark);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contect2 .top .box p{
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.contect2 .bottom{
+    display: flex;
+    align-items: end;
+    z-index: 3;
+}
+
+.contect2 .bottom img{
+    width: 100%;
+margin-left: -150px;
+/* margin-bottom: -100px; */
+/* z-index: 3; */
+}
+
+.map{
+    margin-top: -80px;
+}
